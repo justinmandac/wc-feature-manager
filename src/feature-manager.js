@@ -1,5 +1,8 @@
-export default function FeatureManager(flags) {
-  if (typeof flags !== 'object') {
+export function FeatureManager(flags) {
+  if (flags === null ||
+      typeof flags !== 'object' ||
+      Array.isArray(flags)
+  ) {
     throw new Error('flags should be an object');
   }
 
