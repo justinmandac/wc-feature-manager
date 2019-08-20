@@ -1,0 +1,17 @@
+{
+  "name": "wc-feature-manager",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "justinmandac <justinmandac@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/justinmandac/wc-feature-manager",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
