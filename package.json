@@ -23,6 +23,6 @@
     "@babel/register": "^7.5.5",
     "chai": "^4.2.0",
     "mocha": "^6.2.0",
-    "webpack": "^4.39.2"
+    "webpack": "^5.75.0"
   }
 }
